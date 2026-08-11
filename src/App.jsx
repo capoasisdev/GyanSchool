@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import Stats from './components/Stats';
 import About from './components/About';
 import Courses from './components/Courses';
-import Trainers from './components/Trainers';
+
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
@@ -234,7 +234,6 @@ function AppContent() {
                                     <Stats />
                                     <About />
                                     <Courses onSelectCourse={handleSelectCourse} />
-                                    <Trainers />
                                     <Testimonials />
                                     <FAQ />
                                     </>

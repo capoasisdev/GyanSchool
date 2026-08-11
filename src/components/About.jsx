@@ -54,7 +54,7 @@ export default function About() {
     const L = perimeter / N;
 
     return (
-        <section id="about" className="about section reveal" style={{ padding: '8rem 0' }}>
+        <section id="about" className="about section reveal" style={{ padding: '8rem 0 4rem' }}>
             <div
                 ref={containerRef}
                 className="container"
